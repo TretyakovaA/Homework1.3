@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
         int yearRelease =2013;
 
-        int clientOS = 0;
+        int clientOS = 1;
         if (clientOS==0 && yearRelease<2015){
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
         }
